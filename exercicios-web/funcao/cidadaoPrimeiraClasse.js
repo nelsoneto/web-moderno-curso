@@ -8,8 +8,8 @@ function fun1() { }
 const fun2 = function () { }
 
 // Armazenar em um array
-const array = [function (a, b) { return a + b }, fun1, fun2]
-console.log(array[0](2, 3))
+const array = [function (a, b) { return a + b }, fun1, fun2];
+console.log(array[0](2, 3));
 
 // Armazenar em um atributo de objeto
 const obj = {}
@@ -20,8 +20,7 @@ console.log(obj.falar())
 function run(fun) {
     fun()
 }
-
-run(function () { console.log('Executando...') })
+run(function () { console.log('Executando...') });
 
 // Um função pode retornar/conter um função
 function soma(a, b) {
