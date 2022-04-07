@@ -1,3 +1,4 @@
+// função anônima é uma função sem nome, simplesmente isso.
 const soma = function (x, y) {
     return x + y;
 };
