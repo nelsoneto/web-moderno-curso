@@ -12,4 +12,5 @@ falar() // conflito entre paradigmas: funcional e OO
 
 const falarDePessoa = pessoa.falar.bind(pessoa)
 // com bind é possível passar o objeto que seja resolvido com o this 
+// em outras palavras é uma função que amarra o método (pessoa)
 falarDePessoa()
